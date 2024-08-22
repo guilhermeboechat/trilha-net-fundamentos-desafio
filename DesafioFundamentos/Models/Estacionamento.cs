@@ -2,8 +2,8 @@ namespace DesafioFundamentos.Models
 {
     public class Estacionamento
     {
-        private decimal precoInicial = 5;
-        private decimal precoPorHora = 2;
+        private decimal precoInicial = 0;
+        private decimal precoPorHora = 0;
         private List<string> veiculos = new List<string>();
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
